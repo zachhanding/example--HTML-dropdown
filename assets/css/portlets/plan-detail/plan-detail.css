@@ -1,0 +1,29 @@
+#barChartDataSelector button#chartContextValue,
+#barChartDataSelector button#subTypesContextValue {
+    padding-right: 20px;
+    text-align: left;
+    border: 1px solid #005172;
+    background-color: #005172;
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: 2.8rem;
+    padding: .6rem 1rem !important;
+}
+#barChartDataSelector button.dropdown-toggle {
+    position: absolute;
+}
+#barChartDataSelector .chart-selector-angle {
+    font-size: 2.5rem;
+    padding-bottom: 0;
+    line-height: 9px;
+    vertical-align: middle;
+}
+#barChartDataSelector #bar-chart-selector-list,
+#barChartDataSelector #subTypes-selector-list {
+    padding: 0;
+    width: 100%;
+}
+#barChartDataSelector #bar-chart-selector-list li,
+#barChartDataSelector #subTypes-selector-list li {
+    text-align: left; 
+}

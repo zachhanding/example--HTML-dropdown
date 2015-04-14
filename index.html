@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if IE 9]>			<html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html lang="en" class="no-js"> <!--<![endif]-->
+	<head>
+		<title>Dropdown Example</title>
+
+		<link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/lib/font-awesome.css">
+		<link rel="stylesheet" href="assets/css/theme.css">
+		<link rel="stylesheet" href="assets/css/portlets/plan-detail/plan-detail.css">
+	</head>
+	<body>
+		<div id="barChartDataSelector" style="margin:20px; width:100px;">
+			<div class="btn-group btn-border btn-block">
+				<button type="button"
+					id="chartContextValue"
+					class="btn btn-default search-dropdown dropdown-font btn-block"
+					data-toggle="dropdown">
+					Family
+				</button>
+
+				<button type="button"
+					class="btn btn-primary dropdown-toggle"
+					data-toggle="dropdown">
+					<i class="fa fa-angle-down chart-selector-angle"></i>
+					<span class="sr-only">Toggle Dropdown</span>
+				</button>
+
+				<ul id="bar-chart-selector-list" class="dropdown-menu dropdown-font" role="menu">
+					<li><a class="unstyled" value="Family">Family</a></li>
+					<li><a class="unstyled" value="Alex">Alex</a></li>
+					<li><a class="unstyled" value="Samantha">Samantha</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="assets/js/lib/jquery.1.9.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/lib/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/lib/modernizr.2.8.3.min.js"></script>
+		<script src="assets/js/portlets/plan-detail/plan-detail.js"></script>
+	</body>
+</html>
